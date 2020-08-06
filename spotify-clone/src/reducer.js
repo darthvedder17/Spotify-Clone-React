@@ -4,6 +4,8 @@ user: null ,
 playlists : [],
 playing : false,
 item : null,
+
+// Remove after finished developing
 token:null
 
 
@@ -26,6 +28,16 @@ const reducer = (state,action) => {
 
 			...state,
 			token : action.token,
+
+
+		};
+
+
+			case 'SET_PLAYLISTS':
+		return {
+
+			...state,
+			token : action.playlists,
 
 
 		};

@@ -49,11 +49,25 @@ function App() {
 
     });
 
-    }
 
-    console.log('I have a token', token);
+    spotify.getUserPlaylists().then((playlists)=> {
+      dispatch({
+
+        type : 'SET_PLAYLISTS',
+        playlists:playlists,
 
 
+
+      });
+
+
+      
+
+    });
+
+    // console.log('I have a token', token);
+
+}
 
   }, []);
 
@@ -62,7 +76,7 @@ function App() {
 
     {
       token?(
-        <Player />
+        <Player spotify = {spotify} />
       ):(
 
       <Login />
