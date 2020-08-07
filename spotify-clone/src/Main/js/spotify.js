@@ -22,6 +22,7 @@ return window.location.hash
 .substring(1)
 .split('&')
 .reduce((initial,item) => {
+	
 // #accessToken=mysupersecretkey&name=Shorya
 
 let parts= item.split('=');

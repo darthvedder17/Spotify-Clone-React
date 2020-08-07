@@ -6,7 +6,7 @@ playing : false,
 item : null,
 
 // Remove after finished developing
-token:null
+token:null	
 
 
 };
@@ -33,11 +33,22 @@ const reducer = (state,action) => {
 		};
 
 
-			case 'SET_PLAYLISTS':
+		case 'SET_PLAYLISTS':
 		return {
 
 			...state,
-			token : action.playlists,
+			playlists : action.playlists,
+
+
+		};
+
+
+
+		case 'SET_DISCOVER_WEEKLY':
+		return {
+
+			...state,
+			discover_weekly:action.dis,
 
 
 		};
