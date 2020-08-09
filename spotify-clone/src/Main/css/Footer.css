@@ -44,12 +44,12 @@ color: green;
 
 .footer_right{
 
-	display: flex;
-	align-items: center;
-	color: white;
-	justify-content: space-between;
-	
-	flex: 0.3;
+display: flex;
+align-items: center;
+color: white;
+justify-content: space-between;
+
+flex: 0.3;
 
 
 
@@ -59,10 +59,10 @@ color: green;
 
 
 
-	height: 80px;
-	width: 80px;
-	margin-right: 20px;
-	object-fit: contain;
+height: 80px;
+width: 80px;
+margin-right: 20px;
+object-fit: contain;
 }
 
 .footer_green{
@@ -70,7 +70,7 @@ color: green;
 color: #1ed15e;
 
 
-}
+}	
 
 
 .footer_songInfo > h4{
@@ -83,14 +83,14 @@ margin-bottom: 5px;
 .footer_songInfo > p {
 font-size: 12px;
 
-	
+
 }
 
 
 .footer_icon:hover,.footer_green:hover{
 
-	transition: transform 0.2s ease-in-out;
-	transform: scale(1.2) !important;
+transition: transform 0.2s ease-in-out;
+transform: scale(1.2) !important;
 
 
 }

@@ -57,7 +57,7 @@ margin-right: 20px;
 
 .body_shuffle{
 font-size: 80px !important;
-margin-left: 50px;
+margin-left: 70px;
 margin-top: 20px;
 margin-bottom: 20px;
 
@@ -74,11 +74,11 @@ transform:scale(1.08);
 
 .body_songs{
 	z-index: 1;
-margin: 20px -30px;
+	margin: 20px -30px;
 
 
 }
-
+	
 .body::-webkit-scrollbar {
   display: none;
 }
